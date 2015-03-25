@@ -1,11 +1,8 @@
-def main():
-    print("This one is easy and I guess you picked it first.")
-    print("I will help you by outputing some keywords for the next languages:")
-    keywords = ["g++", "mono", "npm"]
-    print(" ".join(keywords))
+def universal_true():
+    return 42
 
-    print("And the answer from here is:")
-    print("google")
+def universal_lie()
+    return -1 * universal_true()
 
 
 if __name__ == "__main__":
